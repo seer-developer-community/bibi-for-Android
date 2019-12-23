@@ -1,0 +1,298 @@
+/* 
+  Internation.strings
+  BiBi
+
+  Created by 武建斌 on 2019/2/11.
+  Copyright © 2019 武建斌. All rights reserved.
+*/
+//选择
+"home"= "HOME";
+
+"order" = "Orders";
+
+"Balance" = "Balance";
+
+"Profile" = "Profile";
+
+//
+"New_Predictions" ="New Predictions";
+"Hot_Predictions" ="Hot Predictions";
+"Crypto_Topics" ="Crypto Topics";
+"HOT_Topics" ="Hot Topics";
+"Sport_Events" = "Sport Events";
+
+//推荐预测
+"Recommended_Predictions" = "Recommended Predictions";
+
+//预测
+"Predictions" ="Predictions";
+//预测类型
+"PVP" ="PVP Room";
+"PVD" = "PVD Room";
+"Advanced" = "ADV Room";
+
+//截止时间
+"Deadline" = "Deadline";
+
+
+//房间信息
+//选择
+"Options" = "Options";
+//预测button
+"Predict" ="Predict";
+
+//赔率
+
+//"ADVpeilv" = "The odds is based on the proportion of the current participation in the prediction, the bonus odds is the odds when the prediction ends";
+"PVDpeilv" = "The odds is based on the proportion of the current participation in the prediction,the bonus odds is the odds when the prediction ends";
+"ADVpeilv" = "The odds is the actual odds of participation in the prediction, the bonus is based on this odds";
+
+//投注内容
+"Predictcontent" = "The prediction option you choose is:";
+"PredictMoney" = "The range of prediction amount:";
+"Free" ="Transaction Fee:";
+"Getbibi" ="get the tokens";
+"Balanceferr" = "Balance";
+"Buttonsure" = "Confirm";
+"Buttonsure1" = "Confirm   ";
+"Pleasenum" = "Please enter a number:";
+"Inputempty" ="input is empty";
+"Inputempty2" = "The password cannot be empty";
+"Insufficientfunds" ="Insufficient funds";
+"Notinpredictionrange" ="Not in prediction range";
+"reset" ="Reset";
+"delete" ="Delete";
+"Please enter the password" ="Please enter the Wallet password";
+"The password is incorrect, please retype it" ="The password is incorrect, please retype it";
+
+
+//我的页面
+"Profile"  = "Profile";
+"Wallet Management" = "Wallet Management";
+"Contact Us" = "Contact Us";
+"Setings" = "Settings";
+
+//微信
+"WeChat" = "WeChat:";
+"WeChat public account" = "WeChat public account:";
+
+//钱包管理
+"Wallet Management" ="Wallet Management";
+"Change Password" ="Change Password";
+"Delete Wallet" = "Delete Wallet";
+"Cancel" = "Cancel";
+"Attention Before" ="Attention! Before deleting your wallet, please make sure that you have backed up your wallet mnemonic, otherwise you will lose your wallet assets";
+
+//修改密码
+"Current Password" = "Current";
+"New Password" ="New";
+"Repeat New Password" ="Confirm";
+
+"Please enter old password" ="Please enter old password";
+"Please enter new password" ="Please enter new password";
+"Please enter your new password again" ="Repeat New Password";
+
+"Forgot Password" = "Forgot Password?";
+"import right now" ="Import mnemonic words to reset password";
+"No less than 8 digits" = "No less than 8 digits";
+"The current password is incorrect Please enter it again" ="The current password is incorrect Please enter it again";
+"The new password cannot match the old password"="The new password cannot match the old password";
+"The new password is inconsistent Please enter it again"="The new password is inconsistent Please enter it again";
+
+//修改密码图片
+"Modify" = "Modify_icon";
+
+//设置页面
+"Language" ="Language Management";
+"Abount Us" ="Abount Us";
+//转账页面
+"Send" = "Send";
+"Username" ="Username";
+"Enter Username" = "Please Enter Username";
+"Amount" = "Amount";
+"Enter Amount" ="Please Enter Amount";
+"Transaction Fee" = "Transaction Fee:";
+"Account expected" ="Account expected:";
+"User or amount cannot be empty" ="User or amount cannot be empty";
+"You can't transfer money to yourself" = "You can't transfer money to yourself";
+"There is no such user" = "There is no such user";
+"Transfericon" = "Transfer_success_icon";
+
+
+//提现页面
+"cashout" ="Cash-Out";
+"address" ="Address";
+"Amountmoney"="Amount";
+"Enter address"="Please enter your address";
+"Enter money"="Please Enter Amount";
+"The withdrawal" = "The withdrawal must be greater than";
+
+//创建钱包导入
+"CreateImport Wallet" = "Create/Import Wallet";
+"Create a Better" = "Create a Better Financial World with Blockchain Technology";
+"Create Wallet" ="Create Wallet";
+"Import Wallet" ="Import Wallet";
+
+//创建钱包
+"Usernameing" = "Username";
+"no less than 6" = "no less than 6 digits and lowercase";
+"no less than 8" = "no less than 8 characters";
+"Repeat password" = "Repeat password";
+"Please remember" = "Please remember the password of the wallet, Bibi does not store the password, and can not help you find it";
+"Password" = "Password";
+"The account cannot contain Chinese" ="The account cannot contain Chinese";
+"Accounts cannot contain uppercase characters" = "Accounts cannot contain uppercase characters";
+"The account already exists" = "The account already exists";
+"The passwords do not match" ="The passwords do not match";
+"Accounts must be alphanumeric" ="Accounts must be alphanumeric";
+"The user name must start with a lowercase letter" = "The user name must start with a lowercase letter";
+"User or Password cannot be empty" = "User or Password cannot be empty";
+
+//备份助记词
+"Back Up Mnemonic Words" = "Back Up Mnemonic Words";
+//"Back Up Mnemonic Words" = "Back Up Mnemonic Words";
+"Please write down" ="Please write down your wallet mnemonic words";
+
+"Wallet mnemonic words" ="Wallet mnemonic words are used to restore wallet assets. With mnemonic words, you can fully control your wallet assets. Be sure to keep them safe. If you lose your mnemonic words, you will lose your assets. Bibi does not store user's mnemonic words and does not provide a retrieval function";
+"Next" = "Next";
+"Do not take a screenshot" = "Do not take a screenshot";
+
+"Disclosure of mnemonic" = "Disclosure of mnemonic words will lead to loss of assets. Please write them down carefully and place them in a safe place. Do not take a screenshot !";
+"Please click on" ="Please click on the mnemonic words you wrote down in order to verify that your backup mnemonic words are correct";
+"Backup Done" = "Backup Done";
+"The order of the mnemonic" ="Verify that mnemonic words are removed correctly";
+"Backup Failure" = "Backup Failure";
+"Please check your mnemonic words" ="Please check your mnemonic";
+"Prompt" = "Prompt";
+"Only one user" ="Only one user is allowed to register within five minutes";
+"Bound ETH address failed" = "Bound ETH address failed";
+
+//图片
+"beizhu" = "EN_beizhu_icon";
+
+
+//导入钱包
+"Enter mnemonic words, separated by spaces" = "Enter mnemonic words, separated by spaces";
+
+"Mnemonic words cannot be empty" = "Mnemonic words cannot be empty";
+"Mnemonic is wrong" = "Mnemonic is wrong";
+
+//转账记录
+"Transaction Records" = "Transaction Records";
+"Transaction Date" = "Transaction Date:";
+"Transaction Types" ="Transaction Type:";
+"Transaction Users" = "Transaction User:";
+"Transaction Amount" = "Transaction Amount:";
+"Transfertop" = "Send";
+// 充值
+"Recharge" = "Recharge";
+"How are the tokens" = "How are the tokens in the account obtained?";
+
+"The exchanges" = "1.The exchanges or wallets that support ERC-20 SEER:";
+
+"The PFCexchanges" ="1.The exchanges or wallets that support ERC-20 PFC:";
+
+"The USDTexchanges" = "1.The exchanges or wallets that support Omni-USDT:";
+
+"Exchange your" ="Exchange your ERC-20 SEER to main net (Bibi) wallet, the system automatically generates an ETH address for your account. Transfer your SEER to this address from exchanges or ETH wallet, the account on SEER main net (Bibi) will automatically receive SEER at the same amount.";
+"PFCExchange your" = "Exchange your ERC-20 PFC to main net (Bibi) wallet, the system automatically generates an ETH address for your account. Transfer your SEER to this address from exchanges or ETH wallet, the account on SEER main net (Bibi) will automatically receive SEER at the same amount.";
+"USDTExchange your" = "Exchange your USDT from the exchange or wallet to the main network wallet automatically. Omni-usdt USES the BTC network and the system has automatically assigned a BTC address to your account. Transfer the USDT from the exchange or wallet to this address, and the Seer main network (bitcoin) account will automatically get the same amount of USDT. For the first time, it is recommended to try small amount transfer first.";
+
+"ETH Address" = "ETH Address:";
+"BTC Address" = "BTC Address";
+
+"Bitshares Asset" ="2.Bitshares Asset: GDEX.SEER";
+
+"Transfer the Bitshares asset" = "Transfer the Bitshares asset: GDEX.SEER to seer.gateway ( ID#1.2.974186), write seer#your SEER account(double quotes not included) in the memo, then it will be exchanged successfully. Try a small amount when exchanging for the 1st time.";
+
+"Third party exchange" = "3.Third party exchange";
+"Third party exchange2" = "2.Third party exchange";
+
+"Please contact" ="Please contact the officially certified 3rd exchanger, only support transferring in the Dapp";
+"Wechat hongshaorouwanzi" = "Wechat: hongshaorouwanzi";
+
+//投注详情
+"Done" ="Done!";
+"History" = "History";
+"Continue" = "Continue";
+"Portion" = "Portion";
+
+//订单
+"Profits in Total" ="Profits in Total";
+"Orders" = "Orders";
+"Win" = "Win";
+"WinRate" = "WinRate";
+"Ongoing" = "Ongoing";
+"To Be Settled" = "To Be Settled";
+"Ended" = "Ended";
+"Participation Time" = "Participation Time:";
+"Not winning" = "Not winning";
+"Income" = "Income";
+"Spending" = "Pay";
+"Transfer2" = "En_Transfer_icon";
+"Recharge2" = "En_recharge_icon";
+"Cashouticon" ="En_Cash_out_iocn";
+"surebuton"= "right_icon1";
+//注册账号
+"Register" = "Register now";
+"registerimage" = "register_icon";
+//房间信息
+"Sports" ="1.14.8";
+"bibiquan" ="1.14.7";
+"hot top" = "1.14.9";
+//"Sports" ="1.14.0";
+//"bibiquan" ="1.14.1";
+//"hot top" = "1.14.4294967295";
+
+//语言设置
+"System Default" = "System Default";
+"Chinese Simplified" ="简体中文(Chinese Simplified)";
+"Set Language" = "Setting Language...";
+
+
+//时间
+"time" = "time1";
+
+"timeOutStrEN" ="timeOutStrEN";
+"timeStopEN" = "timeStopEN";
+
+"currentTimeString" = "currentTimeString1";
+
+//PVD
+"Buy" ="Buy";
+"Sell" = "Sell";
+"Please enter the estimated amount" ="Please enter the estimated amount";
+//                    10. Selling XXX shares of SEER will cost about 5 SEER
+//                    11. Buying XXX shares of SEER will cost about 5 SEER
+"Selling" = "Selling";
+"Buying" = "Buying";
+"Shares Selling" = "shares of SEER will cost about";
+"Shares Buing" = "shares of SEER will cost about";
+"Selling amount" ="Selling amount is larger than buying amount";
+
+//立即体验
+"Experience" = "Experience";
+//加载中
+"loading" = "  loading...";
+
+"Guide" = "guide";
+
+//检查网络
+"Check the network" ="Check the network";
+
+"NO Date" = "No Data";
+"DateIcon" = "noData_icon";
+
+
+//版本更新
+"new version" ="New Version";
+"update" ="Update";
+"NO update" ="NO";
+
+"Limit words" = "Please enter text";
+
+"beizhunote" ="Note:";
+
+"Remark fee agreement" = "Remark fee agreement:";
+"fee agreement" ="The change of handling fee is based on the order handling fee";
+

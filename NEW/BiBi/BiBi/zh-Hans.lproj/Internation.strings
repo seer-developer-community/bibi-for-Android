@@ -1,0 +1,309 @@
+/* 
+  Internation.strings
+  BiBi
+
+  Created by 武建斌 on 2019/2/11.
+  Copyright © 2019 武建斌. All rights reserved.
+*/
+
+"home" ="首页";
+
+"order" = "订单";
+
+"Balance" ="账户";
+
+"Profile" = "我的";
+
+//币圈
+//最新预测：New Predictions
+//热门预测：Hot Predictions
+//币圈专题：Crypto Topics
+//其他话题：Other Topics
+//预测结果：Prediction Results
+"New_Predictions" ="最新预测";
+"Hot_Predictions" ="热门预测";
+"Crypto_Topics" ="币圈专题";
+"HOT_Topics" ="热点事件";
+"Sport_Events" = "体育赛事";
+
+//推荐预测
+"Recommended_Predictions" = "推荐预测";
+
+//预测
+"Predictions" ="预测";
+
+
+//预测类型
+"PVP" ="奖池型预测";
+"PVD" = "交易型预测";
+"Advanced" = "固定赔率";
+
+//截止时间
+"Deadline" = "截止时间";
+
+//房间信息
+//选择
+"Options" = "选择";
+//预测button
+
+"Predict" ="预测";
+
+//赔率
+
+//"ADVpeilv" = "此赔率是以当前参与预测的比例计算的，派奖赔率是以预测截止时参与预测的比例计算";
+"PVDpeilv" = "此赔率是以当前参与预测的比例计算的，派奖赔率是以预测截止时参与预测的比例计算";
+"ADVpeilv" = "赔率是参与预测的实际赔率，预测成功后的奖金将以此赔率计算";
+
+//投注内容
+"Predictcontent" = "您的预测的选择是:";
+"PredictMoney" = "预测额范围:";
+"Free" ="手续费";
+"Getbibi" ="如何获取代币";
+"Balanceferr" = "余额";
+"Buttonsure" = "确定";
+"Buttonsure1" = "确认密码";
+//"Buttonsure" = "确定";
+"Pleasenum" = "请输入数字:";
+"Inputempty" ="投注不能为空";
+"Inputempty2" = "密码不能为空";
+"Insufficientfunds" ="金额不足";
+"Notinpredictionrange" ="不在预测范围";
+"reset" ="重置";
+"delete" ="删除";
+"Please enter the password" ="请输入钱包密码";
+//"Please enter the password wallet" ="请输入钱包密码";
+"The password is incorrect, please retype it" ="钱包密码错误，请重新输入";
+
+//我的页面
+"Profile"  = "我的";
+"Wallet Management" = "钱包管理";
+"Contact Us" = "联系我们";
+"Setings" = "设置";
+//微信
+"WeChat" = "微信:";
+"WeChat public account" = "微信公众号:";
+
+//钱包管理
+"Wallet Management" ="钱包管理";
+"Change Password" ="修改密码";
+"Delete Wallet" = "删除钱包";
+"Attention Before" ="注意！删除钱包前，请务必确认已备份好钱包助记词，否则将丢失你的钱包资产。";
+"Cancel" = "取消";
+
+//修改密码
+"Current Password" = "当前密码  ";
+"New Password" ="最新密码  ";
+"Repeat New Password" ="重复密码  ";
+"Please enter old password" ="请输入旧密码";
+"Please enter new password" ="请输入新密码";
+"Please enter your new password again" ="请再次输入新密码";
+"Forgot Password" = "忘记密码？导入助记词重置密码,";
+"import right now" ="立即导入";
+"No less than 8 digits" = "密码必须大于8位";
+"The current password is incorrect. Please enter it again" ="当前密码错误，请重新输入";
+"The new password cannot match the old password"="新密码不能与旧密码一致";
+"The new password is inconsistent Please enter it again"="新密码不一致，请重新输入";
+//修改密码图片
+"Modify" = "changeSuced_iocn";
+
+//设置页面
+"Language" ="语言管理";
+"Abount Us" ="关于我们";
+
+//转账页面
+"Send" = "转账";
+"Username" ="转账用户";
+"Enter Username" = "请输入转账用户";
+"Amount" = "转账金额";
+"Enter Amount" ="请输入转账金额";
+"Transaction Fee" = "手续费:";
+"Account expected" ="预计到账约:";
+"User or amount cannot be empty" ="用户或者金额不能为空";
+"You can't transfer money to yourself" = "不能给自己转账";
+"There is no such user" = "没有此用户";
+"Transfericon" = "tranSuced_icon";
+
+//提现页面
+"cashout" ="提现";
+"address" ="提现地址";
+"Amountmoney"="提现金额";
+"Enter address"="请输入提现地址";
+"Enter money"="请输入提现金额";
+"The withdrawal" ="提现必须大于";
+//创建钱包/导入钱包
+"CreateImport Wallet" = "创建/导入钱包";
+"Create a Better" = "用区块链技术打造更美好的金融世界";
+"Create Wallet" ="创建钱包";
+"Import Wallet" ="导入钱包";
+//创建钱包
+"Usernameing" = "用户名   ";
+"no less than 6" = "字母和数字组合不少于6位";
+"no less than 8" = "不少于8位字符";
+"Repeat password" = "请再次输入密码";
+"Please remember" = "请牢记钱包密码,币比不储存密码,也无法帮您找回";
+"Password" = "输入密码";
+"The account cannot contain Chinese" ="账号不能包含中文";
+"Accounts cannot contain uppercase characters" = "账号不能含大写字符";
+"The account already exists" = "账号已经存在";
+"The passwords do not match" ="两次密码不一致";
+"Accounts must be alphanumeric" ="账号必须是字母数字组合";
+"The user name must start with a lowercase letter" = "用户名首位必须是小写字母";
+"User or Password cannot be empty" = "用户或密码不能为空";
+
+//备份助记词
+"Back Up Mnemonic Words" = "备份助记词";
+//"Back Up Mnemonic Words" = "备份";
+"Please write down" ="请记下你的钱包助记词并保存到安全的地方";
+"Wallet mnemonic words" ="钱包助记词用于恢复钱包资产，拥有助记词即可完全控制钱包资产，请务 必妥善保管，丢失助词即丢失钱包资产。币比不存储用户助记词，无法提供找回功能。";
+"Next" = "下一步";
+"Do not take a screenshot" = "请勿截图";
+"Disclosure of mnemonic" = "泄露记词将导致资产丢失，请认真抄写并放在安全到地方，请勿截屏！";
+"Please click on" ="请根据你记下的助记词，按顺序点击，验证你备份的助记词正确无误";
+"Backup Done" = "备份成功";
+"The order of the mnemonic" ="你备份的助记词顺序验证正确，币比将移除该助记词";
+"Backup Failure" = "备份失败";
+"Please check your mnemonic words" ="请检查你的助记词";
+"Prompt" = "提示";
+"Only one user" ="五分钟之内只允许注册一位用户";
+"Bound ETH address failed" = "绑定ETH地址失败";
+
+//导入钱包
+"Enter mnemonic words, separated by spaces" = "输入助记词，用空格分隔";
+"Mnemonic words cannot be empty" = "助记词不能为空";
+"Mnemonic is wrong" = "助记词不对";
+
+//图片
+"beizhu" = "note_icon1";
+
+
+//收款：Receive
+//近期交易记录：Transaction Records
+//交易时间：Transaction Date
+//交易类型：预测、派奖、转账、收款
+//Transaction Types: Prediction, Rewards Distribution, Sending, Receiving
+//交易用户：Users
+//交易状态：已完成、处理中、未完成
+//transaction status: completed, processing, uncompleted
+
+//转账记录
+"Transaction Records" = "近期交易记录";
+"Transaction Date" = "交易时间:";
+"Transaction Types" ="交易类型:";
+"Transaction Users" = "交易用户:";
+"Transaction Amount" = "交易金额:";
+"Transfertop" = "转账";
+
+//充值
+"Recharge" = "充值";
+"How are the tokens" = "账号里的代币如何获得?";
+
+"The exchanges" = "1、支持Erc-20 SEER的交易所或钱包:";
+"The PFCexchanges" = "1、支持Erc-20 PFC的交易所或钱包:";
+"The USDTexchanges" ="1、支持Omni-USDT的交易所或钱包:";
+"Exchange your" ="将您在交易所或以太钱包的SEER自动兑换至主网（币比）钱包。系统已自动为您的账号分配了一个ETH地址。将交易所或以太钱包中的SEER代币转入该地址，Seer主网（币比）帐号即可自动获得等额SEER，第一次建议小额转账先试一下";
+
+"PFCExchange your" ="将您在交易所或以太钱包的PFC自动兑换至主网（币比）钱包。系统已自动为您的账号分配了一个ETH地址。将交易所或以太钱包中的PFC Token转入该地址，Seer主网（币比）帐号即可自动获得等额PFC，第一次建议小额转账先试一下。";
+"USDTExchange your" ="将您在交易所或钱包的USDT自动兑换至主网（币比）钱包。Omni-USDT使用BTC网络，系统已自动为您的账号分配了一个BTC地址。将交易所或钱包中的USDT转入该地址，Seer主网（币比）帐号即可自动获得等额USDT，第一次建议小额转账先试一下。";
+
+"ETH Address" = "ETH 地址:";
+"BTC Address" = "BTC地址:";
+
+"Bitshares Asset" ="2、BTS资产GDEX.SEER:";
+
+"Transfer the Bitshares asset" = "将 BTS 内盘的 GDEX.SEER 转账至 seer.gateway（数字 ID#1.2.974186）转账 memo 备注填：“seer#主网帐号”（双引号不需要填写），即可完成主网 SEER 自动发放，第一次建议小额转账先试一下。";
+
+"Third party exchange" = "3、第三方兑换";
+"Third party exchange2" = "2、第三方兑换";
+
+"Please contact" ="请联系官方认证到第三方承兑商,仅支持Dapp内转账";
+
+"Wechat hongshaorouwanzi" = "微信:hongshaorouwanzi";
+
+//投注详情
+"Done" ="预测成功!";
+"History" = "查看记录";
+"Continue" = "继续预测";
+"Portion" = "份";
+
+//订单
+"Profits in Total" ="累计收益";
+"Orders" = "订单";
+"Win" = "胜场";
+"WinRate" = "胜率";
+"Ongoing" = "进行中";
+"To Be Settled" = "待结算";
+"Ended" = "已结束";
+"Participation Time" = "参与时间:";
+"Not winning" = "未中奖";
+"Income" = "收入";
+"Spending" = "支出";
+"Transfer2" = "new_Transfer_icon";
+"Recharge2" = "new_Recharge_icon";
+"Cashouticon" ="new_Cash-out_icon";
+"surebuton"= "right_icon2";
+
+//注册账号
+"Register" = "立即注册";
+"registerimage" = "register_image_icon";
+
+////房间信息
+"Sports" ="1.14.5";
+"bibiquan" ="1.14.3";
+"hot top" = "1.14.4";
+
+//"Sports" ="1.14.0";
+//"bibiquan" ="1.14.1";
+//"hot top" = "1.14.4294967295";
+
+//语言设置
+"System Default" = "系统语言";
+"Chinese Simplified" ="简体中文";
+"Set Language" = "正在设置语言...";
+////时间
+//"time" = "newString";
+
+//PVD
+"Buy" ="买入";
+"Sell" = "卖出";
+"Please enter the estimated amount" ="请输入预测金额";
+
+
+
+"Selling" = "卖出";
+"Buying" = "买入";
+"Shares Selling" = "份大概收入";
+"Shares Buing" = "份大概需要";
+"Selling amount" ="卖出份数大于买入份数";
+
+//时间
+"time" = "time";
+"timeOutStrEN" ="timeOutStr";
+"timeStopEN"= "timeStop";
+"currentTimeString" = "currentTimeString";
+
+//立即体验
+"Experience" = "立即体验";
+
+//加载中
+"loading" = "加载中...";
+
+"Guide" = "Guide";
+
+
+//检查网络
+"Check the network" ="检查网络";
+
+"NO Date" = "没数据";
+"DateIcon" = "talblview_icon";
+
+//版本更新
+"new version" ="新版本";
+"update" ="更新";
+"NO update" ="暂不更新";
+
+"Limit words" = "请输入文字";
+
+"beizhunote" ="备注:";
+"Remark fee agreement" ="备注手续费:";
+
+"fee agreement"="手续费有变动 以订单手续费为准";
