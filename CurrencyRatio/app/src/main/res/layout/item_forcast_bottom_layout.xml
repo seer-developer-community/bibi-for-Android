@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_90"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+
+        android:id="@+id/tv_forecast_end"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="right|center_vertical"
+        android:paddingRight="@dimen/dp_13">
+
+        <TextView
+            android:id="@+id/tv_forecast"
+            android:layout_width="@dimen/dp_83"
+            android:layout_height="@dimen/dp_33"
+            android:background="@drawable/shape_fillet_importwallet"
+            android:gravity="center"
+            android:text="@string/prediction"
+            android:textColor="@color/comment_titlebar"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_25"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_7"
+            android:background="@drawable/shape_end_tab"
+            android:gravity="center|center_vertical"
+            android:rotation="-3"
+            android:text="@string/Correct"
+            android:textColor="@color/pwd_weak"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/reka_tv_odds_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_odds_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:gravity="center_vertical"
+            android:text="4以下"
+            android:textColor="#ff444444"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_odds"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_toRightOf="@+id/tv_odds_name"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="x5.55)"
+            android:textColor="#ff444444"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/iv_odds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_1"
+            android:layout_toRightOf="@+id/tv_odds"
+            android:padding="@dimen/dp_6"
+            android:src="@mipmap/icon_odds" />
+
+        <TextView
+            android:id="@+id/tv_odds_content"
+            android:layout_width="@dimen/dp_110"
+            android:layout_height="@dimen/dp_55"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_25"
+            android:layout_toRightOf="@+id/iv_odds"
+            android:background="@mipmap/icon_odds_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1"
+            android:padding="@dimen/dp_2"
+            android:text=""
+            android:textColor="#ff444444"
+            android:textSize="7sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

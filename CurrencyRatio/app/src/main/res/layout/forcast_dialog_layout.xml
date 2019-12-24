@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".uipacakage.SaveBrainKeyActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constrain_check_forcast_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rela_pvd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_65"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintTop_toTopOf="@+id/constrain_check_forcast_amount">
+
+            <ImageView
+                android:id="@+id/iv_back_pvd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dp_6"
+                android:src="@mipmap/miss"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="@dimen/dp_160"
+                android:layout_height="@dimen/dp_33"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_pvd"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pvd_buy"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_pvd_buy"
+                    android:gravity="center"
+                    android:text="@string/buy"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_pvd_sell"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/sell"
+                    android:textColor="@color/tab_tv_color"
+                    android:textSize="@dimen/sp_16"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rela_forcast_amount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_65"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintTop_toBottomOf="@+id/rela_pvd">
+
+
+            <RelativeLayout
+                android:id="@+id/rela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ThePredictionOptionYouChooseIs"
+                        android:textColor="#ff444444"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/user_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="4以下"
+                        android:textColor="#ff2a7ddf"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_back_forcast_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/dp_6"
+                    android:src="@mipmap/miss"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rela">
+
+                <TextView
+                    android:id="@+id/tv_foracat_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#ff444444"
+                    android:textSize="9sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dp_6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_how_get_seer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/howget"
+                        android:textColor="@color/comment_titlebar"
+                        android:textSize="@dimen/sp_9" />
+
+                    <View
+                        android:layout_width="@dimen/dp_55"
+                        android:layout_height="0.5dp"
+                        android:background="@color/comment_titlebar"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rela_edi_input_forcast_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:background="@drawable/shape_fillet_edi_save_brainkey"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintTop_toBottomOf="@+id/rela_forcast_amount">
+
+            <EditText
+                android:id="@+id/edi_input_forcast_money"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:digits="1234567890"
+                android:hint="@string/PleaseEnterAnumber"
+                android:inputType="number|numberDecimal"
+                android:numeric="decimal"
+                android:paddingLeft="10dp"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sp_11" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rela_fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/constrain_check_forcast_amount"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_forcast_amount"
+            app:layout_constraintTop_toBottomOf="@id/rela_edi_input_forcast_money"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_13"
+                android:layout_marginTop="@dimen/dp_13"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_service_bee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TransactionFee"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_pwd_service_bee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text=""
+                    android:textColor="#F13535"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_pwd_remind_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Balances"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_pwd_remind_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="0"
+                    android:textColor="@color/comment_titlebar"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_pay_seer_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text=""
+            android:textColor="@color/pwd_weak"
+            android:textSize="@dimen/sp_10"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rela_fee" />
+
+        <TextView
+            android:id="@+id/tv_cofirm_forcast_amount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_65"
+            android:layout_below="@+id/rela_fee"
+            android:layout_marginLeft="@dimen/dp_7"
+            android:layout_marginRight="@dimen/dp_7"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@mipmap/icon_shadow_wallet"
+            android:gravity="center"
+            android:text="@string/Confirm"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pay_seer_money" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constrain_check_brainkey_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_110"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rela_brainkey"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toTopOf="@+id/constrain_check_brainkey_pwd">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_16"
+                android:src="@mipmap/icon_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/PleaseEnterThePassword"
+                android:textColor="#ff444444"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_cofirm_brainkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dp_16"
+                android:text="@string/Confirm"
+                android:textColor="@color/comment_titlebar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rela_edi_input_brainkey_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginRight="@dimen/dp_13"
+            android:background="@drawable/shape_fillet_edi_save_brainkey"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toBottomOf="@+id/rela_brainkey">
+
+            <EditText
+                android:id="@+id/edi_input_brainkey_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/sp_11" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_pwd_input_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_13"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/ThePasswordIsIncorrect"
+            android:textColor="#ffe62e2e"
+            android:textSize="11sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/constrain_check_brainkey_pwd"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toBottomOf="@id/rela_edi_input_brainkey_pwd" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

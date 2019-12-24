@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp_13"
+    android:paddingRight="@dimen/dp_13"
+    android:paddingTop="@dimen/dp_10">
+
+    <TextView
+        android:gravity="left"
+        android:id="@+id/tv_forcast_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="4以下"
+        android:textColor="#ff444444"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+        <ProgressBar
+            android:id="@+id/sp_forcast_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_14"
+            android:max="100"
+            android:progress="30"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/tv_rate_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="18%"
+            android:textSize="@dimen/sp_8" />
+    </RelativeLayout>
+
+
+    <!--<com.nyzc.gdm.currencyratio.View.SpringProgressView-->
+    <!--android:id="@+id/sp_forcast_progress"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="@dimen/dp_10"-->
+    <!--android:layout_marginLeft="@dimen/dp_20"-->
+    <!--android:layout_marginTop="@dimen/dp_2"-->
+    <!--android:layout_toRightOf="@+id/tv_forcast_detail"-->
+    <!--android:layout_weight="1" />-->
+
+
+</LinearLayout>

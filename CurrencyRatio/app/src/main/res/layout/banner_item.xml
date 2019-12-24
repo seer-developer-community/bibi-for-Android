@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <ImageView
+            android:id="@+id/iv_banner"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:adjustViewBounds="true"
+            android:background="@color/comment_titlebar"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_width="@dimen/dp_218"
+            android:layout_height="@dimen/dp_84"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:lines="4"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_stop_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/dp_30"
+            android:layout_marginRight="@dimen/dp_30"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_11" />
+    </RelativeLayout>
+
+</LinearLayout>
