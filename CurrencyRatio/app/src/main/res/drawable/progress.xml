@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:id="@android:id/background">-->
+
+    <!--<shape>-->
+    <!--<corners android:radius="@dimen/dp_10" />-->
+    <!--<solid android:color="#E9F2FC" />-->
+    <!--<stroke-->
+    <!--android:width="@dimen/dp_1"-->
+    <!--android:color="#38AFF4" />-->
+    <!--</shape>-->
+    <!--</item>-->
+
+
+    <!--<item android:id="@android:id/progress">-->
+    <!--<clip>-->
+    <!--<shape>-->
+    <!--<corners android:radius="10dip" />-->
+    <!--<size android:height="16dp" />-->
+    <!--<gradient-->
+    <!--android:centerColor="#2A7DDF"-->
+    <!--android:endColor="#38AFF4"-->
+    <!--android:startColor="#2A7DDF" />-->
+    <!--</shape>-->
+    <!--</clip>-->
+    <!--</item>-->
+
+
+    <!--<item-->
+        <!--android:id="@android:id/background"-->
+        <!--android:gravity="center_vertical">-->
+        <!--<shape>-->
+            <!--<size android:height="16dp" />-->
+            <!--<corners android:radius="8dp" />-->
+            <!--<solid android:color="#E9F2FC" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!--<item android:id="@android:id/progress">-->
+        <!--<scale android:scaleWidth="98%">-->
+            <!--<shape>-->
+                <!--<corners android:radius="8dp" />-->
+                <!--<size android:height="16dp" />-->
+                <!--<solid android:color="@color/comment_titlebar" />-->
+                <!--<gradient-->
+
+                    <!--android:endColor="#38AFF4"-->
+                    <!--android:startColor="#2A7DDF"-->
+                    <!--android:type="linear" />-->
+            <!--</shape>-->
+        <!--</scale>-->
+    <!--</item>-->
+
+
+
+    <item
+        android:id="@android:id/background"
+        android:gravity="center_vertical">
+        <shape>
+            <size android:height="16dp" />
+            <corners android:radius="8dp" />
+            <solid android:color="#E9F2FC" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        android:gravity="center_vertical">
+        <scale android:scaleWidth="95%">
+            <shape>
+                <size android:height="16dp"/>
+                <corners android:radius="8dp"/>
+                <solid android:color="@color/comment_titlebar" />
+                <gradient
+
+                    android:endColor="#38AFF4"
+                    android:startColor="#2A7DDF"
+                    android:type="linear" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>
