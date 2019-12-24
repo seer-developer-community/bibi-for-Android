@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--<shape xmlns:android="http://schemas.android.com/apk/res/android">--><!--<gradient--><!--android:endColor="#0000FF"--><!--android:startColor="#FF0000"--><!--android:type="linear" />--><!--</shape>-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/comment_titlebar" />
+
+    <corners android:radius="5dp" />
+</shape>
+
+
+    <!--<shape android:shape="rectangle">--><!--<solid android:color="#ff2a7ddf" />--><!--<corners android:topLeftRadius="1dp" android:topRightRadius="1dp" android:bottomLeftRadius="1dp" android:bottomRightRadius="1dp" />--><!--</shape>-->
