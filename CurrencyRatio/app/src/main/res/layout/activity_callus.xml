@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_backgroud"
+    tools:context=".uipacakage.Callus">
+
+    <com.nyzc.gdm.currencyratio.View.CustomTitleBar
+        android:id="@+id/custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:left_button_image="@mipmap/icon_left"
+        app:show_left_button="true"
+        app:show_right_button="false"
+        android:background="@color/white"
+        app:title_text="@string/ContactUs" />
+
+    <ImageView
+        android:id="@+id/iv_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_title"
+        android:background="@mipmap/call" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_130"
+        android:background="@drawable/shape_call_us"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/seer_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_15"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/tab_tv_color"
+            android:text="@string/WeChat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divider" />
+
+        <TextView
+            android:textColor="@color/tab_tv_color"
+            android:textSize="@dimen/sp_12"
+            android:id="@+id/seer_weixin_gong"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_15"
+            android:text="@string/WeChatPublicNumber" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_backgroud"
+    tools:context=".uipacakage.CheckBrainkeyActivity">
+
+    <com.nyzc.gdm.currencyratio.View.CustomTitleBar
+        android:id="@+id/custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:background="@color/white"
+        app:left_button_image="@mipmap/icon_left"
+        app:show_left_button="true"
+        app:show_right_button="false"
+        app:title_text="@string/BackUpBraink" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/constrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_33"
+                android:gravity="center"
+                android:text="@string/WriteBraink"
+                android:textColor="#ff444444"
+                android:textSize="15sp"
+       />
+
+            <TextView
+                android:id="@+id/tv_save_reminding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_28"
+                android:layout_marginRight="@dimen/dp_28"
+                android:layout_marginTop="@dimen/dp_10"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/dp_3"
+                android:lineSpacingMultiplier="1"
+                android:text="@string/restoreBraink"
+                android:textColor="#ff444444"
+                android:textSize="11sp"
+              />
+
+            <RelativeLayout
+                android:id="@+id/rela_gridview_brainkey"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_165"
+                android:layout_marginLeft="@dimen/dp_28"
+                android:layout_marginRight="@dimen/dp_28"
+                android:layout_marginTop="@dimen/dp_15"
+                android:background="@color/white"
+               >
+
+                <com.nyzc.gdm.currencyratio.View.MyGridView
+                    android:id="@+id/gridview_brainkey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="@dimen/dp_5"
+                    android:numColumns="4"
+                    android:padding="@dimen/dp_10"
+                    android:scrollbars="none"
+                    android:verticalSpacing="@dimen/dp_5">
+
+                </com.nyzc.gdm.currencyratio.View.MyGridView>
+            </RelativeLayout>
+
+            <com.nyzc.gdm.currencyratio.View.MyGridView
+                android:id="@+id/gridview_another_brainkey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_28"
+                android:layout_marginRight="@dimen/dp_28"
+                android:layout_marginTop="@dimen/dp_15"
+                android:horizontalSpacing="@dimen/dp_5"
+                android:numColumns="4"
+                android:padding="@dimen/dp_10"
+                android:scrollbars="none"
+                android:verticalSpacing="@dimen/dp_5"
+                android:visibility="gone"
+       >
+
+            </com.nyzc.gdm.currencyratio.View.MyGridView>
+
+            <TextView
+                android:id="@+id/tv_brainkey"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_63"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="@mipmap/icon_shadow_wallet"
+                android:gravity="center"
+                android:text="@string/next"
+                android:textColor="@color/white"
+/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

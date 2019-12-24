@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_backgroud"
+    tools:context=".uipacakage.SaveBrainKeyActivity">
+
+    <com.nyzc.gdm.currencyratio.View.CustomTitleBar
+        android:id="@+id/custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:left_button_image="@mipmap/icon_left"
+        app:show_left_button="true"
+        app:show_right_button="false"
+        android:background="@color/white"
+        app:title_text="@string/BackUpBraink" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constrain_save_brankey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginLeft="@dimen/dp_27"
+        android:layout_marginRight="@dimen/dp_27"
+        android:layout_marginTop="@dimen/dp_90"
+        android:background="@mipmap/icon_save_backgrond"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/custom_title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_save"
+            android:drawablePadding="@dimen/dp_5"
+            android:text="@string/RightNowBraink"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/sp_19"
+            app:layout_constraintBottom_toBottomOf="@+id/constrain_save_brankey"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_save_brankey"
+            app:layout_constraintRight_toRightOf="@+id/constrain_save_brankey"
+            app:layout_constraintTop_toTopOf="@+id/constrain_save_brankey"
+
+            />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_sava_brainkey_warning"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150"
+        android:layout_marginLeft="@dimen/dp_27"
+        android:layout_marginRight="@dimen/dp_27"
+        android:background="@color/white"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:lineSpacingMultiplier="1"
+        android:paddingLeft="@dimen/dp_40"
+        android:paddingRight="@dimen/dp_40"
+        android:text="@string/AssetsSecurity"
+        android:textColor="#ff444444"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constrain_save_brankey" />
+
+
+    <TextView
+        android:id="@+id/tv_save_brainkey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_63"
+        android:layout_marginTop="@dimen/dp_62"
+        android:background="@mipmap/icon_shadow_wallet"
+        android:gravity="center"
+        android:text="@string/BackUp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sava_brainkey_warning" />
+
+    <android.support.constraint.ConstraintLayout
+        android:visibility="gone"
+        android:id="@+id/constrain_check_brainkey_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rela_brainkey"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toTopOf="@+id/constrain_check_brainkey_pwd">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_16"
+                android:src="@mipmap/icon_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="请输入钱包密码"
+                android:textColor="#ff444444"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_cofirm_brainkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dp_16"
+                android:text="确定"
+                android:textColor="@color/comment_titlebar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rela_edi_input_brainkey_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/shape_fillet_edi_save_brainkey"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintRight_toRightOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toBottomOf="@+id/rela_brainkey">
+
+            <EditText
+                android:id="@+id/edi_input_brainkey_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@null" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_pwd_input_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="支付密码错误，请重新输入"
+            android:textColor="#ffe62e2e"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@id/constrain_check_brainkey_pwd"
+            app:layout_constraintLeft_toLeftOf="@+id/constrain_check_brainkey_pwd"
+            app:layout_constraintTop_toBottomOf="@id/rela_edi_input_brainkey_pwd" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
