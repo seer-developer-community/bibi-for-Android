@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="comment_titlebar">#2A7DDF</color>
+    <color name="tab_unselect">#C2C2C2</color>
+    <color name="tab_tv_color">#444444</color>
+    <color name="my_backgroud">#F4F6FD</color>
+    <color name="white">#ffffff</color>
+    <color name="pwd_weak">#F13535</color>
+    <color name="pwd_strong">#34AD56</color>
+    <color name="near_blue">#ff38aff4</color>
+    <color name="progress_back">#E9F2FC</color>
+    <color name="divider">#ffc2c2c2</color>
+    <color name="touMing">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#333333</color>
+</resources>
