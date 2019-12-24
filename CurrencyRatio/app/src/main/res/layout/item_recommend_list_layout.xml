@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_13"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="推荐预测"
+        android:textColor="#ff444444"
+        android:textSize="13sp" />
+
+    <com.nyzc.gdm.currencyratio.View.MyListView
+        android:id="@+id/recommend_forecast_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/dp_20"
+        android:divider="@color/my_backgroud"
+        android:layout_marginLeft="@dimen/dp_13"
+        android:layout_marginRight="@dimen/dp_13"
+        android:layout_marginTop="@dimen/dp_5">
+
+    </com.nyzc.gdm.currencyratio.View.MyListView>
+
+</LinearLayout>

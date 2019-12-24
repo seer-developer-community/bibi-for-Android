@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rela_lefe_btn"
+        android:layout_width="48dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/tab_tv_color"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/rela_right_btn"
+        android:layout_width="58dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:text=""
+            android:textColor="@color/tab_tv_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

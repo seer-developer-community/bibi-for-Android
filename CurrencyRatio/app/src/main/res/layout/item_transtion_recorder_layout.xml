@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/dp_12">
+
+    <RelativeLayout
+        android:id="@+id/rela1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TransactionDate"
+                android:textColor="#ff444444"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/trans_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="2018/8/31 16:34:23"
+                android:textColor="#B2B2B2"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/trans_money_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-1000SEER"
+            android:textColor="@color/pwd_strong"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rela2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rela1"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TransactionTypes"
+                android:textColor="#ff444444"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/trans_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/Send"
+                android:textColor="#B2B2B2"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/trans_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-1000SEER"
+            android:textColor="@color/pwd_strong"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rela2"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Users"
+                android:textColor="#ff444444"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/trans_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:text=" —"
+                android:textColor="#B2B2B2"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/trans_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:text="@string/TransactionFee"
+            android:lines="2"
+            android:ellipsize="middle"
+            android:textColor="#B2B2B2"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+
+    <!--android:textColor="#ff34ad56"-->
+
+</RelativeLayout>

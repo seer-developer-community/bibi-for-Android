@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_backgroud">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constain_remind"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_213"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/tv_top_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:gravity="center"
+            android:text="@string/DeleteWallet"
+            android:textColor="#ff444444"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/tab_unselect"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_top_reminder" />
+
+        <TextView
+            android:id="@+id/tv_remind_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_45"
+            android:gravity="center"
+            android:text="@string/Attention"
+            android:textColor="#ff444444"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_15"
+            android:paddingRight="@dimen/dp_15"
+            app:layout_constraintBottom_toBottomOf="@+id/constain_remind"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_remind_bottom">
+
+            <TextView
+                android:id="@+id/tv_delelte_confirm"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_44"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="@drawable/shape_fillet_importwallet"
+                android:gravity="center"
+                android:text="@string/Confirm"
+                android:textSize="@dimen/sp_19"
+                android:textColor="@color/comment_titlebar"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_delete_cancel"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_44"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="@drawable/shape_fillet_cancel_delete_wallet"
+                android:gravity="center"
+                android:text="@string/cancle"
+                android:textSize="@dimen/sp_19"
+                android:textColor="@color/white"
+                app:layout_constraintRight_toRightOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
